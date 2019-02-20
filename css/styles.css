@@ -1,0 +1,73 @@
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: auto;
+  opacity: -2;
+  transition: 0.5s ease;
+  background-color: rgba(226, 42, 16, 0.5);
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.col-md-6:hover .overlay,
+.col-xl-4:hover .overlay {
+  opacity: 0.5;
+}
+
+.col-md-6:hover .overlay,
+.col-xl-4:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 25px;
+  font-family: "Indie Flower", cursive;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+p {
+  font-size: 25px;
+}
+
+ul,
+h3 {
+  font-size: 20px;
+}
+
+p,
+ul,
+h3 {
+  font-family: "Indie Flower", cursive;
+  color: #ff4c33;
+}
+
+#blurb {
+  color: rgb(15, 29, 44);
+}
+
+#feast {
+  font-family: "Monofett", cursive;
+  font-size: 44px;
+  color: rgb(15, 29, 44, 0.9);
+}
+
+.box {
+  background-color: rgba(15, 29, 44, 0.7);
+}
+
+.box h3,
+.box li {
+  font-family: "Poiret One", cursive;
+  color: rgb(255, 255, 255);
+}
